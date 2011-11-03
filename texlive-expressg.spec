@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/expressg
+# catalog-date 2007-01-05 12:56:21 +0100
+# catalog-license lppl
+# catalog-version 1.5
 Name:		texlive-expressg
 Version:	1.5
 Release:	1
@@ -55,6 +61,7 @@ Annotation charts, but not Gantt charts directly.
 #- source
 %doc %{_texmfdistdir}/source/metapost/expressg/expressg.dtx
 %doc %{_texmfdistdir}/source/metapost/expressg/expressg.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,3 +72,5 @@ Annotation charts, but not Gantt charts directly.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
