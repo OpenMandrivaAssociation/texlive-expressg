@@ -1,12 +1,12 @@
-# revision 15878
+# revision 29349
 # category Package
 # catalog-ctan /graphics/metapost/contrib/macros/expressg
-# catalog-date 2007-01-05 12:56:21 +0100
+# catalog-date 2012-07-11 14:19:50 +0200
 # catalog-license lppl
 # catalog-version 1.5
 Name:		texlive-expressg
 Version:	1.5
-Release:	2
+Release:	3
 Summary:	Diagrams consisting of boxes, lines, and annotations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/expressg
@@ -61,17 +61,3 @@ Annotation charts, but not Gantt charts directly.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.5-2
-+ Revision: 751726
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.5-1
-+ Revision: 718401
-- texlive-expressg
-- texlive-expressg
-- texlive-expressg
-- texlive-expressg
-
