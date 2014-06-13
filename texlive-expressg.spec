@@ -6,7 +6,7 @@
 # catalog-version 1.5
 Name:		texlive-expressg
 Version:	1.5
-Release:	7
+Release:	8
 Summary:	Diagrams consisting of boxes, lines, and annotations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/expressg
