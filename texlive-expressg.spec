@@ -1,6 +1,6 @@
 Name:		texlive-expressg
 Version:	29349
-Release:	1
+Release:	2
 Summary:	Diagrams consisting of boxes, lines, and annotations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/expressg
