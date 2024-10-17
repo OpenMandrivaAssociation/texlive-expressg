@@ -3,7 +3,7 @@ Version:	29349
 Release:	2
 Summary:	Diagrams consisting of boxes, lines, and annotations
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/expressg
+URL:		https://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/expressg
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/expressg.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/expressg.doc.r%{version}.tar.xz
